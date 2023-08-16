@@ -28,7 +28,6 @@ class App(mglw.WindowConfig):
         except KeyError:
             print(f"No {name}")
         
-
     def render(self, time, frametime):
         self.ctx.clear()
         self.set_uniform("time", time)
