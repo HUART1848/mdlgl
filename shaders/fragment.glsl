@@ -66,8 +66,7 @@ vec4 fractal(vec2 c) {
     
     float distSquared = dot(z, z);
     if (distSquared > 16.0) {
-      //return vec4(gradientBW(float(i) / MAXITER
-    ), 1.0);
+      //return vec4(gradientBW(float(i) / MAXITER), 1.0);
       return vec4(gradientColor(float(i) + 1.0 - log2(log(distSquared) / 2.0)), 1.0);
     }
   }
