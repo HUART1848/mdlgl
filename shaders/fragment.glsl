@@ -1,4 +1,4 @@
-#version 430
+#version 330
 
 #define MAXITER 512
 #define PI 3.14151692
