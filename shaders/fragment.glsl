@@ -1,7 +1,7 @@
 #version 330
 
 #define MAXITER 512
-#define PI 3.14151692
+#define PI 3.14159265
 
 out vec4 fragColor;
 
